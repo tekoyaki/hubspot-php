@@ -133,7 +133,7 @@ class Files extends Api
         $endpoint = "/filemanager/api/v2/folders";
 
         $options['json'] = [
-            'folder_name'      => $folder_name,
+            'name'             => $folder_name,
             'parent_folder_id' => $parent_folder_id,
         ];
 
